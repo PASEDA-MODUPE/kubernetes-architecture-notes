@@ -23,7 +23,7 @@ Control Plane Components
 Worker Node Components
 
 * kubelet: Ensures assigned Pods run according to their specifications.
-* Container runtime: Pulls images and runs containers, for example, containerd or CRI-O.
+* Container runtime: Pulls container images and runs containers, for example, containerd or CRI-O.
 * kube-proxy: Helps implement Service networking when used.
 * Pods: The smallest deployable units in Kubernetes. A Pod contains one or more containers.
 
